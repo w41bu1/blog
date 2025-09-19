@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>Vulnerabilities | w41bu1</title>
+<meta name="keywords" content="">
+<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+<meta name="author" content="Theme PaperMod">
+<link rel="canonical" href="//localhost:1313/categories/vulnerabilities/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="//localhost:1313/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="//localhost:1313/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="//localhost:1313/favicon-32x32.png">
+<link rel="apple-touch-icon" href="//localhost:1313/apple-touch-icon.png">
+<link rel="mask-icon" href="//localhost:1313/safari-pinned-tab.svg">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="//localhost:1313/categories/vulnerabilities/index.xml">
+<link rel="alternate" hreflang="en" href="//localhost:1313/categories/vulnerabilities/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:url" content="//localhost:1313/categories/vulnerabilities/">
+  <meta property="og:site_name" content="w41bu1">
+  <meta property="og:title" content="Vulnerabilities">
+  <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="website">
+      <meta property="og:image" content="//localhost:1313/images/papermod-cover.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="//localhost:1313/images/papermod-cover.png">
+<meta name="twitter:title" content="Vulnerabilities">
+<meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+
+</head>
+
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="//localhost:1313/" accesskey="h" title="w41bu1 (Alt + H)">w41bu1</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)" aria-label="Toggle theme">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+                <ul class="lang-switch"><li>|</li>
+                    <li>
+                        <a href="//localhost:1313/vi/" title="Vietnamese"
+                            aria-label="Vietnamese">Vietnamese</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="//localhost:1313/archives" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/search/" title="Search (Alt &#43; /)" accesskey=/>
+                    <span>Search</span>
+                </a>
+            </li>
+            <li>
+                <a href="//localhost:1313/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/adityatelange/hugo-PaperMod/wiki/" title="WiKi">
+                    <span>WiKi</span>&nbsp;
+                    <svg fill="none" shape-rendering="geometricPrecision" stroke="currentColor" stroke-linecap="round"
+                        stroke-linejoin="round" stroke-width="2.5" viewBox="0 0 24 24" height="12" width="12">
+                        <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+                        <path d="M15 3h6v6"></path>
+                        <path d="M10 14L21 3"></path>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header"><div class="breadcrumbs"><a href="//localhost:1313/">Home</a>&nbsp;»&nbsp;<a href="//localhost:1313/categories/">Categories</a></div>
+  <h1>
+    Vulnerabilities
+    <a href="/categories/vulnerabilities/index.xml" title="RSS" aria-label="RSS">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" height="23">
+        <path d="M4 11a9 9 0 0 1 9 9" />
+        <path d="M4 4a16 16 0 0 1 16 16" />
+        <circle cx="5" cy="19" r="1" />
+      </svg>
+    </a>
+  </h1>
+</header>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CVE-2025-58990
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Lỗ hổng trong plugin ShopLentor trước phiên bản 3.2.0 cho phép kẻ tấn công có quyền contributor chèn mã độc vào CSS của block. CSS này sau đó được nạp inline vào trang và có khả năng dẫn tới Stored XSS khi được preview hoặc hiển thị trong trình duyệt.
+CVE ID: CVE-2025-58990 Product: WordPress ShopLentor Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.2.0 CVSS severity: Low (6.5) Required Privilege: Contributor Requirements Local WordPress and Debugging ShopLentor: v3.2.0(vul) và v3.2.1(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Actived WooCommerce plugin: plugin bắt buộc actived trước khi cài ShopLentor Plugin Analysis Patch Diff Dùng diff tool bất kì để so sánh sự khác biệt giữa bản lỗi và bản vá. Có sự khác biệt rõ ở file woolentor-blocks/includes/classes/Manage_Styles.php.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-17 22:45:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-58990" href="//localhost:1313/posts/2025-09-17-cve-2025-58990/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CVE-2025-27006
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Lỗ hổng xảy ra trên plugin Authorsy của WordPress trước phiên bản 1.0.6. Điều này có thể cho phép kẻ tấn công chèn mã độc (ví dụ: script chuyển hướng, quảng cáo, hoặc các payload HTML khác) vào website, và những mã đó sẽ được thực thi khi khách truy cập mở trang.
+CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.0.5 CVSS severity: Medium (6.5) OWASP Top 10: A1: Broken Access Control Required Privilege: Subscriber Trong mô tả yêu cầu đặc quyền Subscriber nhưng thực ra có thể khai thác Unauthenticated. {: .prompt-info }
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-17 10:37:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-27006" href="//localhost:1313/posts/2025-09-17-cve-2025-27006/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CVE-2025-53307
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Lỗ hổng xảy ra trên plugin Assistant của WordPress trước phiên bản 3.6.2. Điều này có thể cho phép kẻ tấn công chèn mã độc (ví dụ: script chuyển hướng, quảng cáo, hoặc các payload HTML khác) vào website, và những mã đó sẽ được thực thi khi khách truy cập mở trang.
+CVE ID: CVE-2025-53307 Product: WordPress Assistant Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.5.2 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Assistant: v1.5.2(vul) và v1.5.3(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng hiển thị trực tiếp nội dung hình ảnh do người dùng cung cấp thông qua URL mà không xác thực và kiểm tra đầy đủ MIME type. Điều này dẫn đến việc kẻ tấn công có thể cung cấp một tập tin giả dạng hình ảnh và khi được trình duyệt xử lý, nó sẽ thực thi mã độc =&gt; gây ra lỗ hổng XSS.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-16 22:55:00 +0700 +07'>September 16, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-53307" href="//localhost:1313/posts/2025-09-16-cve-2025-53307/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CVE-2022-21661
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Do việc làm sạch dữ liệu (sanitization) không đúng cách trong WP_Query, có những trường hợp có thể xảy ra SQL Injection thông qua các plugin hoặc theme sử dụng nó theo một cách nhất định. Lỗ hổng này đã được vá trong WordPress phiên bản 5.8.3. Các phiên bản cũ hơn bị ảnh hưởng cũng đã được sửa thông qua bản phát hành bảo mật, quay ngược lại đến tận phiên bản 3.7.37.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-15 12:00:00 +0700 +07'>September 15, 2025</span>&nbsp;·&nbsp;13 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to CVE-2022-21661" href="//localhost:1313/posts/2025-09-15-cve-2022-21661/"></a>
+</article>
+
+<article class="post-entry tag-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">CVE-2025-2011
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Introduction Lỗ hổng xảy ra trên plugin Depicter Slider của WordPress trước phiên bản 3.6.2. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
+CVE ID: CVE-2025-2011 Product: WordPress Depicter Slider Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 3.6.1 CVSS severity: High (9.3) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Depicter Slider: v3.6.1(vul) và v3.6.2(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Nguyên nhân cố lõi do ứng dụng chèn trực tiếp dữ liệu từ GET request vào SQL query mà không có cơ chế kiểm soát chặt chẽ.
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-09-11 00:08:00 +0700 +07'>September 11, 2025</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-2011" href="//localhost:1313/posts/2025-09-11-cve-2025-2011/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="//localhost:1313/categories/vulnerabilities/page/2/">Next&nbsp;2/3&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer">
+        <span>© <a href="https://github.com/adityatelange/hugo-PaperMod/graphs/contributors">PaperMod Contributors</a></span> · 
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+
+</html>

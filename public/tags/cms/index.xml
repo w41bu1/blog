@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Cms on w41bu1</title>
+    <link>//localhost:1313/tags/cms/</link>
+    <description>Recent content in Cms on w41bu1</description>
+    <image>
+      <title>w41bu1</title>
+      <url>//localhost:1313/images/papermod-cover.png</url>
+      <link>//localhost:1313/images/papermod-cover.png</link>
+    </image>
+    <generator>Hugo -- 0.150.0</generator>
+    <language>en</language>
+    <copyright>PaperMod Contributors</copyright>
+    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
+    <atom:link href="//localhost:1313/tags/cms/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress Local and Debugging</title>
+      <link>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</link>
+      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</guid>
+      <description>A powerful and the most popular content management system (CMS).</description>
+    </item>
+  </channel>
+</rss>

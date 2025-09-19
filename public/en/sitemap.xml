@@ -2,31 +2,148 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/blog/first-blog/</loc>
-    <lastmod>2025-09-19T07:37:08+07:00</lastmod>
+    <loc>//localhost:1313/tags/analyst/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/</loc>
-    <lastmod>2025-09-19T07:37:08+07:00</lastmod>
+    <loc>//localhost:1313/categories/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/cve-analyst/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-17-cve-2025-58990/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/plugin/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/vulnerabilities/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
-                hreflang="fr"
-                href="http://localhost:1313/blog/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fa"
-                href="http://localhost:1313/blog/fa/"
+                hreflang="vi"
+                href="//localhost:1313/vi/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/blog/"
+                href="//localhost:1313/"
                 />
   </url><url>
-    <loc>http://localhost:1313/blog/categories/</loc>
+    <loc>//localhost:1313/tags/xss/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/series/</loc>
+    <loc>//localhost:1313/posts/2025-09-17-cve-2025-27006/</loc>
+    <lastmod>2025-09-17T10:37:00+07:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/blog/tags/</loc>
+    <loc>//localhost:1313/posts/2025-09-16-cve-2025-53307/</loc>
+    <lastmod>2025-09-16T22:55:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/core/</loc>
+    <lastmod>2025-09-15T12:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-15-cve-2022-21661/</loc>
+    <lastmod>2025-09-15T12:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/sqli/</loc>
+    <lastmod>2025-09-15T12:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-11-cve-2025-2011/</loc>
+    <lastmod>2025-09-11T00:08:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-10-cve-2025-48118/</loc>
+    <lastmod>2025-09-10T14:54:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-10-cve-2025-30936/</loc>
+    <lastmod>2025-09-10T00:01:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-09-cve-2025-48281/</loc>
+    <lastmod>2025-09-09T18:36:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-09-cve-2025-32650/</loc>
+    <lastmod>2025-09-09T10:36:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-04-cve-2025-58604/</loc>
+    <lastmod>2025-09-04T21:13:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-09-03-cve-2025-26943/</loc>
+    <lastmod>2025-09-03T23:28:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-08-31-cve-2025-39569/</loc>
+    <lastmod>2025-08-31T18:56:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-08-28-cve-2025-6234/</loc>
+    <lastmod>2025-08-28T20:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-08-25-cve-2025-39566/</loc>
+    <lastmod>2025-08-25T13:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/cms/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/php/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/technology/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/categories/web/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/wordpress/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</loc>
+    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/blog/</loc>
+    <lastmod>2025-08-19T01:10:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/giscus/</loc>
+    <lastmod>2025-08-19T01:10:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/github/</loc>
+    <lastmod>2025-08-19T01:10:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/posts/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</loc>
+    <lastmod>2025-08-19T01:10:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/tags/jekyll/</loc>
+    <lastmod>2025-08-19T01:10:00+07:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/archives/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/archives/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/archives/"
+                />
+  </url><url>
+    <loc>//localhost:1313/search/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/search/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/search/"
+                />
+  </url><url>
+    <loc>//localhost:1313/series/</loc>
   </url>
 </urlset>
