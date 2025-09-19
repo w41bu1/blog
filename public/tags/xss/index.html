@@ -7,8 +7,8 @@
 <meta name="robots" content="index, follow">
 <title>Xss | w41bu1</title>
 <meta name="keywords" content="">
-<meta name="description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
-<meta name="author" content="Theme PaperMod">
+<meta name="description" content="w41bu1 - https://github.com/w41bu1.github.io/blog">
+<meta name="author" content="w41bu1">
 <link rel="canonical" href="//localhost:1313/tags/xss/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.08f7d74f0ada0f975d29ae436285b61ed7a719d05f350cb888d00341642995a2.css" integrity="sha256-CPfXTwraD5ddKa5DYoW2HtenGdBfNQy4iNADQWQplaI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="//localhost:1313/favicon.ico">
@@ -20,6 +20,7 @@
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="//localhost:1313/tags/xss/index.xml">
 <link rel="alternate" hreflang="en" href="//localhost:1313/tags/xss/">
+<link rel="alternate" hreflang="vi" href="//localhost:1313/vi/tags/xss/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,14 +60,14 @@
 </noscript><meta property="og:url" content="//localhost:1313/tags/xss/">
   <meta property="og:site_name" content="w41bu1">
   <meta property="og:title" content="Xss">
-  <meta property="og:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+  <meta property="og:description" content="w41bu1 - https://github.com/w41bu1.github.io/blog">
   <meta property="og:locale" content="en">
   <meta property="og:type" content="website">
       <meta property="og:image" content="//localhost:1313/images/papermod-cover.png">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="//localhost:1313/images/papermod-cover.png">
 <meta name="twitter:title" content="Xss">
-<meta name="twitter:description" content="Theme PaperMod - https://github.com/adityatelange/hugo-PaperMod">
+<meta name="twitter:description" content="w41bu1 - https://github.com/w41bu1.github.io/blog">
 
 </head>
 
@@ -110,7 +111,7 @@
                 <ul class="lang-switch"><li>|</li>
                     <li>
                         <a href="//localhost:1313/vi/" title="Vietnamese"
-                            aria-label="Vietnamese">Vietnamese</a>
+                            aria-label="🇻🇳 Vietnamese">🇻🇳 Vietnamese</a>
                     </li>
                 </ul>
             </div>
@@ -162,30 +163,30 @@
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-58990
+    <h2 class="entry-hint-parent">CVE-2025-58990 Analysis &amp; POC
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction Lỗ hổng trong plugin ShopLentor trước phiên bản 3.2.0 cho phép kẻ tấn công có quyền contributor chèn mã độc vào CSS của block. CSS này sau đó được nạp inline vào trang và có khả năng dẫn tới Stored XSS khi được preview hoặc hiển thị trong trình duyệt.
-CVE ID: CVE-2025-58990 Product: WordPress ShopLentor Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.2.0 CVSS severity: Low (6.5) Required Privilege: Contributor Requirements Local WordPress and Debugging ShopLentor: v3.2.0(vul) và v3.2.1(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Actived WooCommerce plugin: plugin bắt buộc actived trước khi cài ShopLentor Plugin Analysis Patch Diff Dùng diff tool bất kì để so sánh sự khác biệt giữa bản lỗi và bản vá. Có sự khác biệt rõ ở file woolentor-blocks/includes/classes/Manage_Styles.php.
+    <p>A vulnerability in the ShopLentor plugin before version 3.2.0 allows attackers with contributor privileges to inject malicious code into block CSS. This CSS is then loaded inline on the page and can lead to Stored XSS when previewed or rendered in the browser.
+CVE ID: CVE-2025-58990 Product: WordPress ShopLentor Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.2.0 CVSS Severity: Low (6.5) Required Privilege: Contributor Requirements Local WordPress and Debugging ShopLentor: v3.2.0 (vulnerable) and v3.2.1 (patched) Diff tool: meld or any tool to compare differences between versions Activated WooCommerce plugin: WooCommerce must be active before installing ShopLentor Plugin Analysis Patch Diff Use any diff tool to compare the vulnerable version with the patched version. The main difference is in woolentor-blocks/includes/classes/Manage_Styles.php.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-17 22:45:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-58990" href="//localhost:1313/posts/2025-09-17-cve-2025-58990/"></a>
+  <footer class="entry-footer"><span title='2025-09-17 22:45:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;w41bu1</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-58990 Analysis & POC" href="//localhost:1313/posts/2025-09-17-cve-2025-58990/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-27006
+    <h2 class="entry-hint-parent">CVE-2025-27006 Analysis &amp; POC
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Authorsy của WordPress trước phiên bản 1.0.6. Điều này có thể cho phép kẻ tấn công chèn mã độc (ví dụ: script chuyển hướng, quảng cáo, hoặc các payload HTML khác) vào website, và những mã đó sẽ được thực thi khi khách truy cập mở trang.
-CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.0.5 CVSS severity: Medium (6.5) OWASP Top 10: A1: Broken Access Control Required Privilege: Subscriber Trong mô tả yêu cầu đặc quyền Subscriber nhưng thực ra có thể khai thác Unauthenticated. {: .prompt-info }
+    <p>Introduction A vulnerability exists in the WordPress Authorsy plugin before version 1.0.6. This can allow an attacker to inject malicious code (e.g., redirect scripts, ads, or other HTML payloads) into the website, which will be executed when a visitor opens the page.
+CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.0.5 CVSS severity: Medium (6.5) OWASP Top 10: A1: Broken Access Control Required Privilege: Subscriber The description requires Subscriber privileges, but in reality, the vulnerability can be exploited unauthenticated.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-17 10:37:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Theme PaperMod</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-27006" href="//localhost:1313/posts/2025-09-17-cve-2025-27006/"></a>
+  <footer class="entry-footer"><span title='2025-09-17 10:37:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
+  <a class="entry-link" aria-label="post link to CVE-2025-27006 Analysis & POC" href="//localhost:1313/posts/2025-09-17-cve-2025-27006/"></a>
 </article>
 
 <article class="post-entry tag-entry"> 
@@ -198,7 +199,7 @@ CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cr
 CVE ID: CVE-2025-53307 Product: WordPress Assistant Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.5.2 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Assistant: v1.5.2(vul) và v1.5.3(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng hiển thị trực tiếp nội dung hình ảnh do người dùng cung cấp thông qua URL mà không xác thực và kiểm tra đầy đủ MIME type. Điều này dẫn đến việc kẻ tấn công có thể cung cấp một tập tin giả dạng hình ảnh và khi được trình duyệt xử lý, nó sẽ thực thi mã độc =&gt; gây ra lỗ hổng XSS.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-16 22:55:00 +0700 +07'>September 16, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <footer class="entry-footer"><span title='2025-09-16 22:55:00 +0700 +07'>September 16, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;w41bu1</footer>
   <a class="entry-link" aria-label="post link to CVE-2025-53307" href="//localhost:1313/posts/2025-09-16-cve-2025-53307/"></a>
 </article>
 
@@ -212,13 +213,13 @@ CVE ID: CVE-2025-53307 Product: WordPress Assistant Plugin Vulnerability Type: C
 CVE ID: CVE-2025-6234 Product: WordPress Hostel Plugin Vulnerability Type: SQL Injection Affected Versions: &lt; 1.1.5.8 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Hostel Plugin: v1.1.5.7(vul) và v1.1.5.8(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để tháy được sự khác biệt giữa 2 version Analysis Nguyên nhân gốc rễ do không thực hiện sanitize (làm sạch dữ liệu) và escape (mã hóa dữ liệu đầu ra) đối với một tham số trước khi phản hồi lại trên trang, dẫn đến lỗ hổng Reflected Cross-Site Scripting (XSS)
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-08-28 20:00:00 +0700 +07'>August 28, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;Theme PaperMod</footer>
+  <footer class="entry-footer"><span title='2025-08-28 20:00:00 +0700 +07'>August 28, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;w41bu1</footer>
   <a class="entry-link" aria-label="post link to CVE-2025-6234" href="//localhost:1313/posts/2025-08-28-cve-2025-6234/"></a>
 </article>
     </main>
     
 <footer class="footer">
-        <span>© <a href="https://github.com/adityatelange/hugo-PaperMod/graphs/contributors">PaperMod Contributors</a></span> · 
+        <span>&copy; 2025 <a href="//localhost:1313/">w41bu1</a></span> · 
 
     <span>
         Powered by

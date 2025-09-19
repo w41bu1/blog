@@ -2,6 +2,149 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/vi/tags/analyst/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/analyst/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/analyst/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/categories/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/categories/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/categories/cve-analyst/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/cve-analyst/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/categories/cve-analyst/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/posts/2025-09-17-cve-2025-58990/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/2025-09-17-cve-2025-58990/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/2025-09-17-cve-2025-58990/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/plugin/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/plugin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/plugin/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/posts/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/categories/vulnerabilities/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/vulnerabilities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/categories/vulnerabilities/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/xss/</loc>
+    <lastmod>2025-09-17T22:45:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/xss/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/xss/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/posts/2025-09-17-cve-2025-27006/</loc>
+    <lastmod>2025-09-17T10:37:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/2025-09-17-cve-2025-27006/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/2025-09-17-cve-2025-27006/"
+                />
+  </url><url>
     <loc>//localhost:1313/vi/archives/</loc>
     <xhtml:link
                 rel="alternate"
@@ -14,10 +157,6 @@
                 href="//localhost:1313/vi/archives/"
                 />
   </url><url>
-    <loc>//localhost:1313/vi/chuoi/</loc>
-  </url><url>
-    <loc>//localhost:1313/vi/danhmuc/</loc>
-  </url><url>
     <loc>//localhost:1313/vi/search/</loc>
     <xhtml:link
                 rel="alternate"
@@ -28,20 +167,6 @@
                 rel="alternate"
                 hreflang="vi"
                 href="//localhost:1313/vi/search/"
-                />
-  </url><url>
-    <loc>//localhost:1313/vi/the/</loc>
-  </url><url>
-    <loc>//localhost:1313/vi/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/"
                 />
   </url>
 </urlset>
