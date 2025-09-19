@@ -4,8 +4,14 @@
     <title>Categories on w41bu1</title>
     <link>http://localhost:1313/blog/categories/</link>
     <description>Recent content in Categories on w41bu1</description>
+    <image>
+      <title>w41bu1</title>
+      <url>http://localhost:1313/blog/images/papermod-cover.png</url>
+      <link>http://localhost:1313/blog/images/papermod-cover.png</link>
+    </image>
     <generator>Hugo -- 0.150.0</generator>
-    <language>en-us</language>
+    <language>en</language>
+    <copyright>PaperMod Contributors</copyright>
     <atom:link href="http://localhost:1313/blog/categories/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
