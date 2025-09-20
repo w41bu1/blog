@@ -2,7 +2,7 @@
 
 title: WordPress Local and Debugging
 description: A powerful and the most popular content management system (CMS).
-date: 2025-08-21 09:00:00 +0700
+date: 2025-09-20 17:00:00 +0700
 categories: [Technology, Web]
 tags: [cms, php, wordpress]
 
