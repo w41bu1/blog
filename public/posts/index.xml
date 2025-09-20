@@ -11,119 +11,14 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Sep 2025 22:45:00 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>CVE-2025-58990 Analysis &amp; POC</title>
-      <link>//localhost:1313/posts/2025-09-17-cve-2025-58990/</link>
-      <pubDate>Wed, 17 Sep 2025 22:45:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-17-cve-2025-58990/</guid>
-      <description>Security Vulnerability in WordPress ShopLentor Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-27006 Analysis &amp; POC</title>
-      <link>//localhost:1313/posts/2025-09-17-cve-2025-27006/</link>
-      <pubDate>Wed, 17 Sep 2025 10:37:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-17-cve-2025-27006/</guid>
-      <description>Security Vulnerability in WordPress Authorsy Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-53307</title>
-      <link>//localhost:1313/posts/2025-09-16-cve-2025-53307/</link>
-      <pubDate>Tue, 16 Sep 2025 22:55:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-16-cve-2025-53307/</guid>
-      <description>Security Vulnerability in WordPress Assistant Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2022-21661</title>
-      <link>//localhost:1313/posts/2025-09-15-cve-2022-21661/</link>
-      <pubDate>Mon, 15 Sep 2025 12:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-15-cve-2022-21661/</guid>
-      <description>Security Vulnerability in WordPress Core.</description>
-    </item>
-    <item>
-      <title>CVE-2025-2011</title>
-      <link>//localhost:1313/posts/2025-09-11-cve-2025-2011/</link>
-      <pubDate>Thu, 11 Sep 2025 00:08:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-11-cve-2025-2011/</guid>
-      <description>Security Vulnerability in WordPress Depicter Slider Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-48118</title>
-      <link>//localhost:1313/posts/2025-09-10-cve-2025-48118/</link>
-      <pubDate>Wed, 10 Sep 2025 14:54:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-10-cve-2025-48118/</guid>
-      <description>Security Vulnerability in WordPress Woocommerce Partial Shipment Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-30936</title>
-      <link>//localhost:1313/posts/2025-09-10-cve-2025-30936/</link>
-      <pubDate>Wed, 10 Sep 2025 00:01:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-10-cve-2025-30936/</guid>
-      <description>Security Vulnerability in WordPress Torod Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-48281</title>
-      <link>//localhost:1313/posts/2025-09-09-cve-2025-48281/</link>
-      <pubDate>Tue, 09 Sep 2025 18:36:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-09-cve-2025-48281/</guid>
-      <description>Security Vulnerability in WordPress MyStyle Custom Product Designer Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-32650</title>
-      <link>//localhost:1313/posts/2025-09-09-cve-2025-32650/</link>
-      <pubDate>Tue, 09 Sep 2025 10:36:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-09-cve-2025-32650/</guid>
-      <description>Security Vulnerability in WordPress Accessibility Suite Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-58604</title>
-      <link>//localhost:1313/posts/2025-09-04-cve-2025-58604/</link>
-      <pubDate>Thu, 04 Sep 2025 21:13:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-04-cve-2025-58604/</guid>
-      <description>Security Vulnerability in WordPress Mail Mint Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-26943</title>
-      <link>//localhost:1313/posts/2025-09-03-cve-2025-26943/</link>
-      <pubDate>Wed, 03 Sep 2025 23:28:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-09-03-cve-2025-26943/</guid>
-      <description>Security Vulnerability in WordPress Easy Quotes Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-39569</title>
-      <link>//localhost:1313/posts/2025-08-31-cve-2025-39569/</link>
-      <pubDate>Sun, 31 Aug 2025 18:56:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-31-cve-2025-39569/</guid>
-      <description>Security Vulnerability in WordPress Taskbuilder Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-6234</title>
-      <link>//localhost:1313/posts/2025-08-28-cve-2025-6234/</link>
-      <pubDate>Thu, 28 Aug 2025 20:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-28-cve-2025-6234/</guid>
-      <description>Security Vulnerability in WordPress Hostel Plugin.</description>
-    </item>
-    <item>
-      <title>CVE-2025-39566</title>
-      <link>//localhost:1313/posts/2025-08-25-cve-2025-39566/</link>
-      <pubDate>Mon, 25 Aug 2025 13:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-25-cve-2025-39566/</guid>
-      <description>Security Vulnerability in WordPress Hostel Plugin.</description>
-    </item>
     <item>
       <title>WordPress Local and Debugging</title>
       <link>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</link>
       <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
       <guid>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</guid>
       <description>A powerful and the most popular content management system (CMS).</description>
-    </item>
-    <item>
-      <title>Github Pages with Jekyll themes and Giscus</title>
-      <link>//localhost:1313/posts/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</link>
-      <pubDate>Tue, 19 Aug 2025 01:10:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-19-github-pages-with-jekyll-themes-and-giscus/</guid>
-      <description>How to create your personal blog using Github Pages with &amp;#34;comment&amp;#34; feature</description>
     </item>
   </channel>
 </rss>

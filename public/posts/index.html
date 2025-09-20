@@ -178,148 +178,17 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-58990 Analysis &amp; POC
+    <h2 class="entry-hint-parent">WordPress Local and Debugging
     </h2>
   </header>
   <div class="entry-content">
-    <p>A vulnerability in the ShopLentor plugin before version 3.2.0 allows attackers with contributor privileges to inject malicious code into block CSS. This CSS is then loaded inline on the page and can lead to Stored XSS when previewed or rendered in the browser.
-CVE ID: CVE-2025-58990 Product: WordPress ShopLentor Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 3.2.0 CVSS Severity: Low (6.5) Required Privilege: Contributor Requirements Local WordPress and Debugging ShopLentor: v3.2.0 (vulnerable) and v3.2.1 (patched) Diff tool: meld or any tool to compare differences between versions Activated WooCommerce plugin: WooCommerce must be active before installing ShopLentor Plugin Analysis Patch Diff Use any diff tool to compare the vulnerable version with the patched version. The main difference is in woolentor-blocks/includes/classes/Manage_Styles.php.
+    <p>WordPress is a powerful and the most popular content management system (CMS) that allows you to create, manage, and customize websites and blogs easily. It’s an open-source CMS, built on PHP, and uses either MySQL or MariaDB databases.
+Released in 2003, initially as a blogging platform, later evolved into a full-featured system for websites, online stores, forums, landing pages, etc. Today, more than 40% of websites worldwide run on WordPress. There are two versions of WordPress:
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-17 22:45:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-58990 Analysis & POC" href="//localhost:1313/posts/2025-09-17-cve-2025-58990/"></a>
+  <footer class="entry-footer"><span title='2025-08-21 09:00:00 +0700 +07'>August 21, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;w41bu1</footer>
+  <a class="entry-link" aria-label="post link to WordPress Local and Debugging" href="//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-27006 Analysis &amp; POC
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction A vulnerability exists in the WordPress Authorsy plugin before version 1.0.6. This can allow an attacker to inject malicious code (e.g., redirect scripts, ads, or other HTML payloads) into the website, which will be executed when a visitor opens the page.
-CVE ID: CVE-2025-27006 Product: WordPress Authorsy Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.0.5 CVSS severity: Medium (6.5) OWASP Top 10: A1: Broken Access Control Required Privilege: Subscriber The description requires Subscriber privileges, but in reality, the vulnerability can be exploited unauthenticated.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-17 10:37:00 +0700 +07'>September 17, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-27006 Analysis & POC" href="//localhost:1313/posts/2025-09-17-cve-2025-27006/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-53307
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Assistant của WordPress trước phiên bản 3.6.2. Điều này có thể cho phép kẻ tấn công chèn mã độc (ví dụ: script chuyển hướng, quảng cáo, hoặc các payload HTML khác) vào website, và những mã đó sẽ được thực thi khi khách truy cập mở trang.
-CVE ID: CVE-2025-53307 Product: WordPress Assistant Plugin Vulnerability Type: Cross Site Scripting Affected Versions: &lt;= 1.5.2 CVSS severity: Medium (7.1) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Assistant: v1.5.2(vul) và v1.5.3(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng hiển thị trực tiếp nội dung hình ảnh do người dùng cung cấp thông qua URL mà không xác thực và kiểm tra đầy đủ MIME type. Điều này dẫn đến việc kẻ tấn công có thể cung cấp một tập tin giả dạng hình ảnh và khi được trình duyệt xử lý, nó sẽ thực thi mã độc =&gt; gây ra lỗ hổng XSS.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-16 22:55:00 +0700 +07'>September 16, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-53307" href="//localhost:1313/posts/2025-09-16-cve-2025-53307/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2022-21661
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Do việc làm sạch dữ liệu (sanitization) không đúng cách trong WP_Query, có những trường hợp có thể xảy ra SQL Injection thông qua các plugin hoặc theme sử dụng nó theo một cách nhất định. Lỗ hổng này đã được vá trong WordPress phiên bản 5.8.3. Các phiên bản cũ hơn bị ảnh hưởng cũng đã được sửa thông qua bản phát hành bảo mật, quay ngược lại đến tận phiên bản 3.7.37.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-15 12:00:00 +0700 +07'>September 15, 2025</span>&nbsp;·&nbsp;13 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2022-21661" href="//localhost:1313/posts/2025-09-15-cve-2022-21661/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-2011
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Depicter Slider của WordPress trước phiên bản 3.6.2. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-2011 Product: WordPress Depicter Slider Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 3.6.1 CVSS severity: High (9.3) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Depicter Slider: v3.6.1(vul) và v3.6.2(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Nguyên nhân cố lõi do ứng dụng chèn trực tiếp dữ liệu từ GET request vào SQL query mà không có cơ chế kiểm soát chặt chẽ.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-11 00:08:00 +0700 +07'>September 11, 2025</span>&nbsp;·&nbsp;7 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-2011" href="//localhost:1313/posts/2025-09-11-cve-2025-2011/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-48118
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Woocommerce Partial Shipment của WordPress trước phiên bản 3.3. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-48118 Product: WordPress Woocommerce Partial Shipment Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 3.2 CVSS severity: High (8.5) Required Privilege: Subscriber Requirements Local WordPress and Debugging Woocommerce Partial Shipment: v3.2(vul) và v3.3(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Actived WooCommerce plugin: plugin bắt buộc actived trước khi cài Woocommerce Partial Shipment Plugin, một số hàm trong WooCommerce sẽ được sử dụng. Analysis Nguyên nhân cố lõi do ứng dụng chèn trực tiếp dữ liệu từ POST request vào SQL query mà không có cơ chế kiểm soát chặt chẽ.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-10 14:54:00 +0700 +07'>September 10, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-48118" href="//localhost:1313/posts/2025-09-10-cve-2025-48118/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-30936
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Torod của WordPress. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-30936 Product: WordPress Torod Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 1.9 Fixed in: &lt;= N/A CVSS severity: High (9.3) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging Torod: v1.9 Analysis Nguyên nhân cố lõi do ứng dụng chèn trực tiếp dữ liệu từ POST request vào SQL query mà không có cơ chế quản kiểm soát chặt chẽ.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-10 00:01:00 +0700 +07'>September 10, 2025</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-30936" href="//localhost:1313/posts/2025-09-10-cve-2025-30936/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-48281
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin MyStyle Custom Product Designer của WordPress trước phiên bản 3.21.2. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-48281 Product: WordPress MyStyle Custom Product Designer Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 3.21.1 CVSS severity: High (9.3) Required Privilege: Unauthenticated Requirements Local WordPress and Debugging MyStyle Custom Product Designer: v3.21.1(vul) và v3.21.2(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Actived WooCommerce plugin: plugin bắt buộc actived trước khi cài MyStyle Custom Product Designer Plugin, một số hàm trong WooCommerce sẽ được sử dụng. Analysis Nguyên nhân cố lõi do ứng dụng chèn trực tiếp dữ liệu từ GET request vào SQL query mà không có cơ chế kiểm soát chặt chẽ.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-09 18:36:00 +0700 +07'>September 9, 2025</span>&nbsp;·&nbsp;9 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-48281" href="//localhost:1313/posts/2025-09-09-cve-2025-48281/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-32650
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Accessibility Suite của WordPress trước phiên bản 4.19. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-32650 Product: WordPress Accessibility Suite Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 4.18 CVSS severity: High (8.5) Required Privilege: Subscriber Requirements Local WordPress and Debugging Accessibility Suite: v4.18(vul) và v4.19(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng chưa thực hiện ép kiểu cho input và mặc dù có sử dụng prepare() để chống SQLi, nhưng do triển khai không đúng nên lỗ hổng SQLi vẫn tồn tại.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-09 10:36:00 +0700 +07'>September 9, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-32650" href="//localhost:1313/posts/2025-09-09-cve-2025-32650/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">CVE-2025-58604
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Mail Mint của WordPress trước phiên bản 1.18.6. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-58604 Product: WordPress Mail Mint Plugin Vulnerability Type: SQL Injection Affected Versions: &lt;= 1.18.5 CVSS severity: Low (7.6) Required Privilege: Administrator Requirements Local WordPress and Debugging Mail Mint: v1.18.5(vul) và v1.18.6(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng đã đưa trực tiếp dữ liệu từ người dùng vào câu query SQL mà không sử dụng các biện pháp bảo vệ khiến lỗ hổng SQL Injection xảy ra.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2025-09-04 21:13:00 +0700 +07'>September 4, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
-  <a class="entry-link" aria-label="post link to CVE-2025-58604" href="//localhost:1313/posts/2025-09-04-cve-2025-58604/"></a>
-</article>
-<footer class="page-footer">
-  <nav class="pagination">
-    <a class="next" href="//localhost:1313/posts/page/2/">Next&nbsp;2/2&nbsp;»
-    </a>
-  </nav>
-</footer>
     </main>
     
 <footer class="footer">

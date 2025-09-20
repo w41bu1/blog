@@ -11,27 +11,27 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi</language>
-    <lastBuildDate>Wed, 17 Sep 2025 22:45:00 +0700</lastBuildDate>
+    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/vi/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Analyst</title>
-      <link>//localhost:1313/vi/tags/analyst/</link>
-      <pubDate>Wed, 17 Sep 2025 22:45:00 +0700</pubDate>
-      <guid>//localhost:1313/vi/tags/analyst/</guid>
+      <title>Cms</title>
+      <link>//localhost:1313/vi/tags/cms/</link>
+      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <guid>//localhost:1313/vi/tags/cms/</guid>
       <description></description>
     </item>
     <item>
-      <title>Plugin</title>
-      <link>//localhost:1313/vi/tags/plugin/</link>
-      <pubDate>Wed, 17 Sep 2025 22:45:00 +0700</pubDate>
-      <guid>//localhost:1313/vi/tags/plugin/</guid>
+      <title>Php</title>
+      <link>//localhost:1313/vi/tags/php/</link>
+      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <guid>//localhost:1313/vi/tags/php/</guid>
       <description></description>
     </item>
     <item>
-      <title>Xss</title>
-      <link>//localhost:1313/vi/tags/xss/</link>
-      <pubDate>Wed, 17 Sep 2025 22:45:00 +0700</pubDate>
-      <guid>//localhost:1313/vi/tags/xss/</guid>
+      <title>Wordpress</title>
+      <link>//localhost:1313/vi/tags/wordpress/</link>
+      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <guid>//localhost:1313/vi/tags/wordpress/</guid>
       <description></description>
     </item>
   </channel>
