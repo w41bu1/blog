@@ -182,11 +182,11 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p>Introduction Lỗ hổng xảy ra trên plugin Taskbuilder của WordPress trước phiên bản 4.0.2. Điều này có thể cho phép kẻ tấn công trực tiếp tương tác với cơ sở dữ liệu của bạn, bao gồm không giới hạn ở việc đánh cắp thông tin.
-CVE ID: CVE-2025-39569 Product: WordPress Hostel Plugin Vulnerability Type: SQL Injection Affected Versions: &lt; 4.0.2 CVSS severity: High (8.5) Required Privilege: Subscriber Requirements Local WordPress and Debugging Taskbuilder Plugin: v4.0.1(vul) và v4.0.2(fix) diff tool: meld hoặc bất cứ tool nào có thể compare để thấy được sự khác biệt giữa 2 version Analysis Ứng dụng đã xử lý dữ liệu đầu vào trước khi đưa vào câu SQL. Tuy nhiên, trong quá trình xây dựng truy vấn, giá trị này được chèn trực tiếp mà không được bao trong dấu nháy đơn &#39;...&#39;. Điều đó khiến kẻ tấn công có thể chèn thêm các thành phần cú pháp SQL hợp lệ (như OR, AND,...) vào truy vấn, dẫn đến lỗ hổng SQL Injection.
+    <p>The vulnerability occurs in the Taskbuilder WordPress plugin before version 4.0.2. This could allow an attacker to directly interact with your database, including, but not limited to, stealing information.
+CVE ID: CVE-2025-39569 Product: WordPress Taskbuilder Plugin Vulnerability Type: SQL Injection Affected Versions: &lt; 4.0.2 CVSS Severity: High (8.5) Required Privilege: Subscriber Requirements Local WordPress and Debugging Taskbuilder Plugin: v4.0.1 (vulnerable) and v4.0.2 (patched) Diff Tool: meld or any tool that can compare files to see differences between two versions Analysis The application sanitizes input data before using it in SQL queries. However, during query construction, this value is inserted directly without being wrapped in single quotes &#39;...&#39;. This allows an attacker to inject valid SQL syntax (such as OR, AND, etc.) into the query, resulting in a SQL Injection vulnerability.
 ...</p>
   </div>
-  <footer class="entry-footer"><span title='2025-09-22 18:54:00 +0700 +07'>September 22, 2025</span>&nbsp;·&nbsp;6 min&nbsp;·&nbsp;w41bu1</footer>
+  <footer class="entry-footer"><span title='2025-09-22 18:54:00 +0700 +07'>September 22, 2025</span>&nbsp;·&nbsp;5 min&nbsp;·&nbsp;w41bu1</footer>
   <a class="entry-link" aria-label="post link to CVE-2025-39569 Analysis & POC" href="//localhost:1313/posts/2025-09-22-cve-2025-39569/"></a>
 </article>
 

@@ -43,6 +43,16 @@
   </url><url>
     <loc>//localhost:1313/posts/2025-09-22-cve-2025-39569/</loc>
     <lastmod>2025-09-22T18:54:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/2025-09-22-cve-2025-39569/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/2025-09-22-cve-2025-39569/"
+                />
   </url><url>
     <loc>//localhost:1313/tags/plugin/</loc>
     <lastmod>2025-09-22T18:54:00+07:00</lastmod>
