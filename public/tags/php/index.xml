@@ -11,13 +11,13 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 20 Sep 2025 17:00:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/tags/php/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>WordPress Local and Debugging</title>
-      <link>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</link>
-      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</guid>
+      <link>//localhost:1313/posts/2025-09-20-wordpress-local-and-debugging/</link>
+      <pubDate>Sat, 20 Sep 2025 17:00:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/2025-09-20-wordpress-local-and-debugging/</guid>
       <description>A powerful and the most popular content management system (CMS).</description>
     </item>
   </channel>

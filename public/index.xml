@@ -11,13 +11,27 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Mon, 22 Sep 2025 18:54:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>CVE-2025-39569 Analysis &amp; POC</title>
+      <link>//localhost:1313/posts/2025-09-22-cve-2025-39569/</link>
+      <pubDate>Mon, 22 Sep 2025 18:54:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/2025-09-22-cve-2025-39569/</guid>
+      <description>Security Vulnerability in WordPress Taskbuilder Plugin.</description>
+    </item>
+    <item>
+      <title>CVE-2025-39566 Analysis &amp; POC</title>
+      <link>//localhost:1313/posts/2025-09-21-cve-2025-39566/</link>
+      <pubDate>Sun, 21 Sep 2025 22:27:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/2025-09-21-cve-2025-39566/</guid>
+      <description>Security Vulnerability in WordPress Hostel Plugin.</description>
+    </item>
+    <item>
       <title>WordPress Local and Debugging</title>
-      <link>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</link>
-      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
-      <guid>//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/</guid>
+      <link>//localhost:1313/posts/2025-09-20-wordpress-local-and-debugging/</link>
+      <pubDate>Sat, 20 Sep 2025 17:00:00 +0700</pubDate>
+      <guid>//localhost:1313/posts/2025-09-20-wordpress-local-and-debugging/</guid>
       <description>A powerful and the most popular content management system (CMS).</description>
     </item>
   </channel>

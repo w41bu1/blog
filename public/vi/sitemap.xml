@@ -2,8 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>//localhost:1313/vi/tags/analyst/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/analyst/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/analyst/"
+                />
+  </url><url>
     <loc>//localhost:1313/vi/categories/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -15,8 +28,112 @@
                 href="//localhost:1313/vi/categories/"
                 />
   </url><url>
+    <loc>//localhost:1313/vi/categories/cve-analyst/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/cve-analyst/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/categories/cve-analyst/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/posts/2025-09-21-cve-2025-39566/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/2025-09-21-cve-2025-39566/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/2025-09-21-cve-2025-39566/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/plugin/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/plugin/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/plugin/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/posts/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/posts/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/posts/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/sqli/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/sqli/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/sqli/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/tags/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/tags/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/categories/vulnerabilities/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/categories/vulnerabilities/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/categories/vulnerabilities/"
+                />
+  </url><url>
+    <loc>//localhost:1313/vi/</loc>
+    <lastmod>2025-09-21T22:27:00+07:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="//localhost:1313/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="vi"
+                href="//localhost:1313/vi/"
+                />
+  </url><url>
     <loc>//localhost:1313/vi/tags/cms/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -29,7 +146,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/vi/tags/php/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -41,34 +158,8 @@
                 href="//localhost:1313/vi/tags/php/"
                 />
   </url><url>
-    <loc>//localhost:1313/vi/posts/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/posts/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/posts/"
-                />
-  </url><url>
-    <loc>//localhost:1313/vi/tags/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/tags/"
-                />
-  </url><url>
     <loc>//localhost:1313/vi/categories/technology/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -80,21 +171,8 @@
                 href="//localhost:1313/vi/categories/technology/"
                 />
   </url><url>
-    <loc>//localhost:1313/vi/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="//localhost:1313/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="vi"
-                href="//localhost:1313/vi/"
-                />
-  </url><url>
     <loc>//localhost:1313/vi/categories/web/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -107,7 +185,7 @@
                 />
   </url><url>
     <loc>//localhost:1313/vi/tags/wordpress/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
@@ -119,17 +197,17 @@
                 href="//localhost:1313/vi/tags/wordpress/"
                 />
   </url><url>
-    <loc>//localhost:1313/vi/posts/2025-08-21-wordpress-local-and-debugging/</loc>
-    <lastmod>2025-08-21T09:00:00+07:00</lastmod>
+    <loc>//localhost:1313/vi/posts/2025-09-20-wordpress-local-and-debugging/</loc>
+    <lastmod>2025-09-20T17:00:00+07:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="//localhost:1313/posts/2025-08-21-wordpress-local-and-debugging/"
+                href="//localhost:1313/posts/2025-09-20-wordpress-local-and-debugging/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="vi"
-                href="//localhost:1313/vi/posts/2025-08-21-wordpress-local-and-debugging/"
+                href="//localhost:1313/vi/posts/2025-09-20-wordpress-local-and-debugging/"
                 />
   </url><url>
     <loc>//localhost:1313/vi/archives/</loc>

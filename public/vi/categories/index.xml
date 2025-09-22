@@ -11,19 +11,33 @@
     </image>
     <generator>Hugo -- 0.150.0</generator>
     <language>vi</language>
-    <lastBuildDate>Thu, 21 Aug 2025 09:00:00 +0700</lastBuildDate>
+    <lastBuildDate>Sun, 21 Sep 2025 22:27:00 +0700</lastBuildDate>
     <atom:link href="//localhost:1313/vi/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CVE Analyst</title>
+      <link>//localhost:1313/vi/categories/cve-analyst/</link>
+      <pubDate>Sun, 21 Sep 2025 22:27:00 +0700</pubDate>
+      <guid>//localhost:1313/vi/categories/cve-analyst/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Vulnerabilities</title>
+      <link>//localhost:1313/vi/categories/vulnerabilities/</link>
+      <pubDate>Sun, 21 Sep 2025 22:27:00 +0700</pubDate>
+      <guid>//localhost:1313/vi/categories/vulnerabilities/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Technology</title>
       <link>//localhost:1313/vi/categories/technology/</link>
-      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <pubDate>Sat, 20 Sep 2025 17:00:00 +0700</pubDate>
       <guid>//localhost:1313/vi/categories/technology/</guid>
       <description></description>
     </item>
     <item>
       <title>Web</title>
       <link>//localhost:1313/vi/categories/web/</link>
-      <pubDate>Thu, 21 Aug 2025 09:00:00 +0700</pubDate>
+      <pubDate>Sat, 20 Sep 2025 17:00:00 +0700</pubDate>
       <guid>//localhost:1313/vi/categories/web/</guid>
       <description></description>
     </item>
